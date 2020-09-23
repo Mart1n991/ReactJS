@@ -1,0 +1,139 @@
+html {
+  font-size: 62.5%; /*1REM = 10px*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: inherit;
+  font-family: "Rubik", sans-serif;
+  background-color: #ececec;
+}
+
+.app-container {
+  width: 90%;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-container h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+/*Form Styles*/
+.app-container form {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #888686;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.app-container form .row label {
+  display: inline-block;
+  width: 8rem;
+  font-size: 1.4rem;
+}
+
+.app-container form .row input {
+  border: none;
+  height: 2rem;
+}
+
+.app-container .error {
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  color: red;
+}
+
+button {
+  background-color: #a1d373;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  transform: scale(0.95);
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+/*Attendees styles*/
+
+.app-container .empty-list {
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+
+.attendees-container {
+  width: 25rem;
+  margin-top: 1rem;
+}
+
+.attendee-container {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 1.6rem 0;
+  background-color: #a1d373;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.attendee-container .icon {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #5a5858;
+  position: absolute;
+  right: 1.5rem;
+  transform: translateY(80%);
+  opacity: 0;
+  transition: all 1s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.attendee-container:hover .icon {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.attendee-info {
+  margin-left: 2rem;
+}
+
+.attendee-info h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.attendee-info p {
+  margin: 0.6rem 0 0 0;
+  font-size: 1.2rem;
+}
