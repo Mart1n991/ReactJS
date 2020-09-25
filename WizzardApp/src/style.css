@@ -1,0 +1,241 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+html {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.app-container {
+  width: 70%;
+  height: 80vh;
+  margin: 25px auto;
+  border-radius: 10px;
+}
+
+.app-container h1 {
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-top: 20px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0 30px 0;
+}
+
+.wrapper {
+  height: 250px;
+  width: 90%;
+  margin-top: 25px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.step-heading {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.check-box {
+  margin-right: 15px;
+}
+
+.input-error {
+  font-size: 12px;
+  text-align: center;
+  background-color: red;
+  margin-top: 8px;
+  color: white;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+/*Styles for theme color*/
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+/*Styles for Step 1*/
+.button-container-step1 {
+  margin: 30px;
+  width: 200px;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 5px 20px;
+  letter-spacing: 2px;
+  transition: transform 0.3s cubic-bezier(0.55, 0, 1, 0.45);
+}
+
+.btn-light {
+  background-color: #d4d1d1;
+}
+
+.btn:hover {
+  transform: scale(0.97);
+}
+
+/*Step 2*/
+
+.language-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.select-language {
+  width: 50%;
+}
+
+/*Step 3*/
+
+form {
+  height: 250px;
+  margin-top: 30px;
+}
+
+.row {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0 0 0;
+}
+
+.row label {
+  width: 100px;
+}
+
+/*Step 4*/
+.privacy-policy-agreement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.privacy-policy-agreement label {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.privacy-policy {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+/*Step 5*/
+
+.hobby-category-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*Step 6*/
+
+.step6-heading {
+  text-align: center;
+}
+
+.hobby-select-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.hobby-select {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hobby-name {
+  width: 100px;
+  margin: 0;
+}
+
+/*Step 7*/
+
+.summary-container {
+  width: 100%;
+  display: flex;
+}
+
+.personal-data {
+  width: 50%;
+  border-right: 1px solid rgb(129, 126, 126, 0.4);
+}
+
+.hobby-summary {
+  width: 50%;
+}
+
+.hobby-summary-list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary {
+  font-size: 12px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.hobby {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.summary-heading {
+  text-align: center;
+}
+
+.summary span {
+  font-size: 14px;
+  font-weight: 600;
+  width: 100px;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+/*Footer*/
+
+.progress {
+  height: 0.5rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.progress-bar {
+  height: 0.5rem;
+}
