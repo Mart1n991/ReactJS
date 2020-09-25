@@ -1,0 +1,39 @@
+{
+  "hobbies": [
+    {
+      "id": 1,
+      "name": "Tennis",
+      "category": "Sport"
+    },
+    {
+      "id": 2,
+      "name": "Fishing",
+      "category": "Nature"
+    },
+    {
+      "id": 3,
+      "name": "Motocross",
+      "category": "Sport"
+    },
+    {
+      "id": 4,
+      "name": "Hiking",
+      "category": "Nature"
+    },
+    {
+      "id": 5,
+      "name": "Football",
+      "category": "Sport"
+    },
+    {
+      "id": 6,
+      "name": "Finnish sauna",
+      "category": "Nature"
+    },
+    {
+      "id": 7,
+      "name": "Programming",
+      "category": "Sport"
+    }
+  ]
+}
