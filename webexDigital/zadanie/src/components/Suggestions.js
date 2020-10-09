@@ -24,7 +24,7 @@ export default function Suggestions({ suggestions, detail }) {
               {suggestion.visible ? (
                 <div className="suggestion-description">
                   <p>{suggestion.description}</p>
-                  <p>Podnet bol pridaný: {suggestion.date}</p>
+                  <p className="suggestion-date-added">Podnet bol pridaný: {suggestion.date}</p>
                 </div>
               ) : null}
             </div>
