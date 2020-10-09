@@ -25,9 +25,10 @@ body {
 }
 
 .row {
-  width: 30%;
+  width: 50%;
   display: flex;
-  margin: 0.5rem 0;
+  justify-content: center;
+  margin: 0.5rem auto;
 }
 
 .row label {
@@ -57,7 +58,8 @@ body {
 }
 
 .suggestion-container {
-  background-color: bisque;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .suggestion-heading {
@@ -70,27 +72,59 @@ body {
 }
 
 .suggestion {
-  padding: 1.5rem 0;
+  width: 50%;
+  height: auto;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  border-radius: 2rem;
   cursor: pointer;
+  background-color: #f8c182;
+  transition: all 0.3s cubic-bezier(0.36, 0, 0.66, -0.56);
+  box-shadow: 2px 3px 4px #9c9c9c;
+}
+
+.suggestion:hover {
+  transform: scale(0.97);
+  box-shadow: 1px 2px 2px #9c9c9c;
 }
 
 .suggestion:nth-child(odd) {
-  background-color: #9aece5;
+  background-color: #85d3cc;
 }
 
 .suggestion-number {
-  font-size: 5rem;
+  font-size: 3rem;
   width: 10rem;
 }
 
 .suggestion-details {
-  margin: 0 2rem 0 1rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .suggestion-picture {
   width: 6rem;
   border-radius: 1rem;
+}
+
+.suggestion-description {
+  margin-top: 1rem;
+}
+
+.suggestion-description:nth-child(2) {
+  font-style: italic;
+}
+
+.suggestion-description p {
+  font-size: 1.2rem;
+  margin: 3px;
+}
+
+.suggestion-date-added {
+  font-style: italic;
 }
