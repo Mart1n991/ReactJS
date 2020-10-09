@@ -20,6 +20,7 @@ export default function Suggestions({ suggestions, detail }) {
               </div>
 
               <div className="suggestion-address">{suggestion.address}</div>
+  
               {suggestion.visible ? (
                 <div className="suggestion-description">
                   <p>{suggestion.description}</p>
