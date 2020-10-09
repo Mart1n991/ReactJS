@@ -1,0 +1,96 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; /*1REM = 10px*/
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  background-color: #e2dede;
+}
+
+.app-container {
+  width: 90%;
+  height: 100vh;
+  margin: 8rem auto;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 30%;
+  display: flex;
+  margin: 0.5rem 0;
+}
+
+.row label {
+  width: 10rem;
+}
+
+.button {
+  margin: 3rem 0;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: yellowgreen;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  transform: scale(0.97);
+}
+
+.suggestion-container {
+  background-color: bisque;
+}
+
+.suggestion-heading {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.suggestion-name {
+  font-weight: 600;
+}
+
+.suggestion {
+  padding: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.suggestion:nth-child(odd) {
+  background-color: #9aece5;
+}
+
+.suggestion-number {
+  font-size: 5rem;
+  width: 10rem;
+}
+
+.suggestion-details {
+  margin: 0 2rem 0 1rem;
+}
+
+.suggestion-picture {
+  width: 6rem;
+  border-radius: 1rem;
+}
